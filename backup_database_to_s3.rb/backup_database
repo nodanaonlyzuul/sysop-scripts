@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require File.join(File.dirname(__FILE__), "..", "..", "config", "environment")
+
+CronScripts::S3DatabaseBackup.run
